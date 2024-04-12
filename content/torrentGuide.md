@@ -5,8 +5,6 @@ draft: false
 
 Esta guía esta diseñada para que puedan descargar películas y series en torrent de manera fácil y rápida. Se basa en el uso de 2 programas; qBittorrent y VLC.
 
-Pablo pls no me acuses con tu viejo.
-
 ## Mitos de Torrent
 
 He visto que varios tienen miedo de descargar torrents ya que pueden estar descargando virus. Al descargar películas y series los riesgos son casi nulos, ya que nunca en el proceso tienen que ejecutar un programa o script. Siembre van a abrir archivos que sean los siguientes:
