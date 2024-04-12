@@ -73,7 +73,7 @@ Esta lista les va a salir vacía pero si seleccionan `Check for updates`, se les
 
 Acá por temas de simpleza, les recomiendo desactivar Jackett y TorLock, haciendo doble click en donde sale enabled yes.
 
-![[Pasted image 20240412130350.png)
+![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130350.png)
 Ya pueden cerrar esta ventana y van a ver que les aparece `Search` en la esquina superior izquierda. Acá podrán buscar cualquier torrent, las recomendaciones están en la siguiente sección.
 
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130610.png)
