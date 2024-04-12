@@ -3,13 +3,6 @@ title: Guia Torrents Callampiaos
 draft: false
 ---
 
----
-title: Example Title
-draft: false
-tags:
-  - example-tag
----
-
 Esta guía esta diseñada para que puedan descargar películas y series en torrent de manera fácil y rápida. Se basa en el uso de 2 programas; qBittorrent y VLC.
 
 Pablo pls no me acuses con tu viejo.
