@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "F. Aros",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        body: "Inter",
+        code: "JetBrainsMono Nerd Font",
       },
       colors: {
         lightMode: {
@@ -38,14 +38,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#ffffff",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#000000",     // page background
+          lightgray: "#201b36", // borders
+          gray: "#646464",      // graph links, heavier borders
+          darkgray: "#d4d4d4",  // body text
+          dark: "#9a75ff",      // header text and icons
+          secondary: "#63aeff", // link colour, current graph node
+          tertiary: "#84a59d",  // hover states and visited graph nodes
+          highlight: "rgba(143, 159, 169, 0.15)", // internal link background, highlighted text, highlighted lines of code
         },
       },
     },
