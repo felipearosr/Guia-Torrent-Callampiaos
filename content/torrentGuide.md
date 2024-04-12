@@ -8,22 +8,21 @@ Esta guía esta diseñada para que puedan descargar películas y series en torre
 Pablo pls no me acuses con tu viejo.
 ## Tabla de Contenidos
 
-- Mitos de Torrent
-- Instalación de programas
-	- qBittorrent
-		- Instalación
-		- Instalación motor de búsqueda
-	- VLC
-		- Instalacion
-		- Opciones avanzadas
-- Proceso de descarga de torrent
-	- Recomendaciones al buscar
-		- Películas
-		- Series
-- Subtitulos
-	- Descarga
-	- Ajustes en VLC
-		- Edge Cases
+- [Mitos de Torrent](#mitos-de-torrent)
+- [Instalación de programas](#instalación-de-programas)
+  - [qBittorrent](#qbittorrent)
+    - [Instalación](#instalación-qbt)
+    - [Instalación motor de búsqueda](#instalación-motor-de-búsqueda)
+  - [VLC](#vlc)
+    - [Instalación](#instalación-vlc)
+    - [Opciones avanzadas](#opciones-avanzadas)
+- [Proceso de descarga de torrent](#proceso-de-descarga-de-torrent)
+  - [Recomendaciones al buscar](#recomendaciones-al-buscar)
+    - [Películas](#películas)
+    - [Series](#series)
+- [Subtitulos](#subtitulos)
+  - [Descarga](#descarga)
+  - [Ajustes en VLC](#ajustes-en-vlc)
 
 ## Mitos de Torrent
 
