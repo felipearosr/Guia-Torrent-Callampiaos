@@ -6,25 +6,8 @@ draft: false
 Esta guía esta diseñada para que puedan descargar películas y series en torrent de manera fácil y rápida. Se basa en el uso de 2 programas; qBittorrent y VLC.
 
 Pablo pls no me acuses con tu viejo.
-## Tabla de Contenidos
 
-- [Mitos de Torrent](#mitos-de-torrent)
-- [Instalación de programas](#instalación-de-programas)
-  - [qBittorrent](#qbittorrent)
-    - [Instalación](#instalación-qbt)
-    - [Instalación motor de búsqueda](#instalación-motor-de-búsqueda)
-  - [VLC](#vlc)
-    - [Instalación](#instalación-vlc)
-    - [Opciones avanzadas](#opciones-avanzadas)
-- [Proceso de descarga de torrent](#proceso-de-descarga-de-torrent)
-  - [Recomendaciones al buscar](#recomendaciones-al-buscar)
-    - [Películas](#películas)
-    - [Series](#series)
-- [Subtitulos](#subtitulos)
-  - [Descarga](#descarga)
-  - [Ajustes en VLC](#ajustes-en-vlc)
-
-## Mitos de Torrent
+## Mitos de Torrent {#mitos-de-torrent}
 
 He visto que varios tienen miedo de descargar torrents ya que pueden estar descargando virus. Al descargar películas y series los riesgos son casi nulos, ya que nunca en el proceso tienen que ejecutar un programa o script. Siembre van a abrir archivos que sean los siguientes:
 
@@ -39,16 +22,16 @@ He visto que varios tienen miedo de descargar torrents ya que pueden estar desca
 
 Dicho esto quiero volver a decir que descargar torrents de series o películas es muy seguro. Mas aun dada las fuentes que les voy a pasar mas adelante, todas confiables.
 
-## Instalación de programas
+## Instalación de programas {#instalacion-programas}
 
 
 Durante esta guía usaremos dos programas que recomiendo para el proceso de descarga y visualización. Ambos programas son Open-Source. 
 
-### qBittorrent
+### qBittorrent {#qbt}
 
 Para instalar torrents les recomiendo [qBittorrent](https://www.qbittorrent.org/download), es un cliente de torrents Open-Source. Esta guía se va a basar en este cliente y en su motor de búsqueda.
 
-#### Instalación
+#### Instalación de qBittorrent {#instalación-qbt}
 
 **Windows:** En este [link](https://www.fosshub.com/qBittorrent.html) seleccionen la opción `qBittorrent Windows x64` no les doy un link directo ya que en unos meses va a ser una versión antigua.
 
@@ -58,7 +41,7 @@ Luego siguen los pasos típicos de instalación de un `.exe`.
 
 **Linux:** No creo que tengan Linux, pero si hay algún valiente con Linux me puede preguntar como instalarlo en su distro, ya que el proceso depende de que distro estén usando de Linux.
 
-#### Instalación de motor de búsqueda
+#### Instalación de motor de búsqueda {#instalación-busqueda}
 
 Para instalar el motor de búsqueda dentro de qBittorrent se van a Tools, Search Engine y siguen los pasos hasta llegar a una ventana que se ve así:
 
@@ -77,9 +60,9 @@ Acá por temas de simpleza, les recomiendo desactivar Jackett y TorLock, haciend
 Ya pueden cerrar esta ventana y van a ver que les aparece `Search` en la esquina superior izquierda. Acá podrán buscar cualquier torrent, las recomendaciones están en la siguiente sección.
 
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130610.png)
-### VLC
+### VLC {#vlc}
 
-#### Instalación
+#### Instalación de VLC {#instalación-vlc}
 
 Me da paja escribir mucho acá, pero este es el [link](https://www.videolan.org/)
 
@@ -87,12 +70,9 @@ Me da paja escribir mucho acá, pero este es el [link](https://www.videolan.org/
 - **Mac:** Selecciones `macOS` si tienen mac basado en intel, `macOS (Apple Silicon)` si tienen un mac con procesador `ARM` ya sea M1, M2 y M3, y todos sus derivados como M3SuperMaxXZ.
 - **Linux:** Si tienen una store, desde ahí, si no, me preguntan.
 
+## Proceso de Descarga de Torrents {#proceso-de-descarga-torrents}
 
-#### Opciones Avanzadas
-
-## Proceso de Descarga de Torrents
-
-### Busqueda de Torrent
+### Busqueda de Torrent {#busqueda-de-torrent}
 
 Acá voy a generalizar mucho, por lo que la información no sera 100% correcta, pero siguiendo un par de guías van a encontrar el bueno pero no el mejor.
 
@@ -100,7 +80,7 @@ Entre mas seeders mas rápido pero no se guíen solo con eso.
 
 **Encodings:** x264, h264, x265, h265 son los comunes, los 265 son mas modernos y sin conplicar el tema mantienen la calidad en menos espacio. un 265 de 2GB se va a ver mejor que un 264 de 2GB
 
-#### Películas
+#### Películas {#peliculas}
 
 Recomiendo buscar de la siguiente manera:
 
@@ -126,7 +106,7 @@ Lo clave acá son:
 - **BluRay:** .
 - **Japanese**: En este caso la película es japonesa, este flag hace referencia a que el audio es en japones. Mas adelante hablaremos de subtitulos.
 
-#### Series
+#### Series {#series}
 Acá recomiendo buscar por temporada si la temporada esta lista. Esto ademas de descargar 1 solo link, facilitara también encontrar subtitulos mas fácilmente.
 
 Para esto poner:
@@ -139,15 +119,15 @@ Por ejemplo:
 
 Los resultados serán distintos al poner Season 1 o S01, busquen en ambos el mejor torrent.
 
-### Descarga de Torrent
+### Descarga de Torrent {#descarga-del-torrent}
 
 Al encontrar el torrent que te guste les dan doble click y les mostrara una ventana así:
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412140529.png)
 
 A la izquierda pueden seleccionar donde guardar el torrent, y a la derecha lo que están por descargar.
-### Proceso del Torrent
+### Proceso del Torrent {#proceso-del-torrent}
 
-#### Status importantes
+#### Status importantes {#status-importantes}
 
 - **Downloading:** Esto significa que el torrent está descargando datos activamente.
 - **Seeding:** Una vez que la descarga de un torrent está completa, generalmente cambia al estado de "Seeding". Esto significa que estás subiendo partes del archivo torrent a otros usuarios. Acá recomiendo apretar el torrent y luego apretar el botón pausa. Debería cambiar al estado `Completed`.
@@ -156,11 +136,11 @@ A la izquierda pueden seleccionar donde guardar el torrent, y a la derecha lo qu
 
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412154002.png)
 
-#### Pausa
+#### Pausa {#pausa}
 
 Como indique previamente es importante pausar el torrent una vez termine, así no gastan bandwidth en subir archivos.
 
-#### Eliminación
+#### Eliminación {#eliminacion}
 
 Una vez vean la serie o película completa pueden eliminar el archivo desde qBittorrent, con el botón remove
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412152753.png)
@@ -168,9 +148,9 @@ Una vez vean la serie o película completa pueden eliminar el archivo desde qBit
  
  ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412152815.png)
 Si no solo eliminaran el link al torrent y no los archivos de este.
-## Subtitulos
+## Subtitulos {#subtitulos}
 
-### Descarga
+### Descarga {#descarga}
 
 Paginas que uso para descargar son:
 
@@ -179,13 +159,13 @@ Paginas que uso para descargar son:
 
 Recomiendo descargar subtitulos con el nombre parecidos a tu torrent.
 
-### Usar subtitulos descargados en VLC
+### Usar subtitulos descargados en VLC {#usar-subtitulos-descargados-en-vlc}
 
 Generalmente los subtitulos vienen en un zip, recomiendo mover solo el archivo `.srt` o `.ass` al mismo directorio de la película o serie. 
 
 Luego en VLC al medio haces click derecho, subtitulos, add subtitle file y le das click a tu `.srt` descargado.
 
-### Ajustes en VLC
+### Ajustes en VLC {#ajustes-en-vlc}
 
 A veces los subtitulos están de-sincronizados, pueden estar adelantados o atrasados. Esto es fácil de solucionar con las teclas `g` y `h`. Generalmente están de-sincronizados por segundos, recomiendo probar con saltos de 1000ms.
 
