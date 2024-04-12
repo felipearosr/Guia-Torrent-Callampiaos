@@ -70,8 +70,6 @@ Luego siguen los pasos típicos de instalación de un `.exe`.
 
 Para instalar el motor de búsqueda dentro de qBittorrent se van a Tools, Search Engine y siguen los pasos hasta llegar a una ventana que se ve así:
 
-![[Archives/torrentGuide/Pasted image 20240412130001.png)
-
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130001.png)
 
 
