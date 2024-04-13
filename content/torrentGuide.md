@@ -119,7 +119,7 @@ Al encontrar el torrent que te guste les dan doble click y les mostrara una vent
 A la izquierda pueden seleccionar donde guardar el torrent, y a la derecha lo que están por descargar.
 ### Proceso del Torrent
 
-#### Status importantes 
+#### Estados importantes 
 
 - **Downloading:** Esto significa que el torrent está descargando datos activamente.
 - **Seeding:** Una vez que la descarga de un torrent está completa, generalmente cambia al estado de "Seeding". Esto significa que estás subiendo partes del archivo torrent a otros usuarios. Acá recomiendo apretar el torrent y luego apretar el botón pausa. Debería cambiar al estado `Completed`.
