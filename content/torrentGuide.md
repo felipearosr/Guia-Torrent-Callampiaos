@@ -5,34 +5,31 @@ draft: false
 
 Esta guía esta diseñada para que puedan descargar películas y series en torrent de manera fácil y rápida. Se basa en el uso de 2 programas; qBittorrent y VLC.
 
-## Mitos de Torrent
+## Desmitificando los Torrents
 
-He visto que varios tienen miedo de descargar torrents ya que pueden estar descargando virus. Al descargar películas y series los riesgos son casi nulos, ya que nunca en el proceso tienen que ejecutar un programa o script. Siembre van a abrir archivos que sean los siguientes:
+He visto que varios tienen miedo de descargar torrents ya que pueden estar descargando un virus. Sin embargo, al descargar películas y series, los riesgos son mínimos, dado que el proceso no requiere ejecutar ningún programa o script. Debes abrir únicamente los siguientes tipos de archivos:
 
-- **Archivos de video** -> Los mas comunes son `.mp4`, `.avi` y `.mkv`. Otros mas cringe son `.mov` y `.wmv`.
-- **Archivos de subtitulos** -> El mas común es `.srt`, rara vez van a ver un `.ass`, pero también es un archivo de subtitulos un poco mas avanzado.
+- **Archivos de video:** Los formatos más comunes son `.mp4`, `.avi` y `.mkv`. Otros menos utilizados son `.mov` y `.wmv`.
+- **Archivos de subtitulos:** El mas común es `.srt`, rara vez van a ver un `.ass`, pero también es un archivo de subtitulos un poco mas avanzado.
 
 > [!IMPORTANT]
-> Todos los postfijos nombrados son los ÚLTIMOS caracteres después del punto. Es decir un archivo llamado `nombre.mp4.exe` deja de ser un archivo `mp4`.
+> Los sufijos mencionados representan los caracteres finales después del punto. Es decir un archivo llamado `nombre.mp4.exe` deja de ser un archivo `mp4`.
 
 > [!CAUTION]
-> Nunca correr archivos que te pidan permisos de administrador. Ni ejecutables como `.exe` y `.bat`. 
+> Nunca ejecutar archivos que te pidan permisos de administrador. Ni ejecutables como `.exe` y `.bat`. 
 
-Dicho esto quiero volver a decir que descargar torrents de series o películas es muy seguro. Mas aun dada las fuentes que les voy a pasar mas adelante, todas confiables.
+Con esta información, quiero reiterar que descargar torrents de películas o series es generalmente muy seguro, especialmente si utilizas las fuentes confiables que recomendaré más adelante.
 
 ## Instalación de programas 
 
+En esta guía, utilizaremos dos programas de código abierto recomendados para el proceso de descarga y visualización de contenidos.
 
-Durante esta guía usaremos dos programas que recomiendo para el proceso de descarga y visualización. Ambos programas son Open-Source. 
+### qBittorrent
 
-### qBittorrent 
-Para instalar torrents les recomiendo [qBittorrent](https://www.qbittorrent.org/download), es un cliente de torrents Open-Source. Esta guía se va a basar en este cliente y en su motor de búsqueda.
-
+Recomiendo usar [qBittorrent](https://www.qbittorrent.org/download), un cliente de torrents de código abierto. Esta guía se basa principalmente en este cliente y su motor de búsqueda integrado.
 #### Instalación de qBittorrent 
 
-**Windows:** En este [link](https://www.fosshub.com/qBittorrent.html) seleccionen la opción `qBittorrent Windows x64` no les doy un link directo ya que en unos meses va a ser una versión antigua.
-
-Luego siguen los pasos típicos de instalación de un `.exe`.
+**Windows:** En este [link](https://www.fosshub.com/qBittorrent.html) seleccionen la opción `qBittorrent Windows x64`. Luego siguen los pasos típicos de instalación de un `.exe`.
 
 **Mac:** Lo mismo que Windows. En este [link](https://www.fosshub.com/qBittorrent.html) seleccionen la opción `qBittorrent Mac OS X`. Instalan como cualquier `.deb`.
 
@@ -54,6 +51,7 @@ Esta lista les va a salir vacía pero si seleccionan `Check for updates`, se les
 Acá por temas de simpleza, les recomiendo desactivar Jackett y TorLock, haciendo doble click en donde sale enabled yes.
 
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130350.png)
+
 Ya pueden cerrar esta ventana y van a ver que les aparece `Search` en la esquina superior izquierda. Acá podrán buscar cualquier torrent, las recomendaciones están en la siguiente sección.
 
 ![Alt text](/Archives/torrentGuide/Pasted%20image%2020240412130610.png)
@@ -163,34 +161,3 @@ Luego en VLC al medio haces click derecho, subtitulos, add subtitle file y le da
 A veces los subtitulos están de-sincronizados, pueden estar adelantados o atrasados. Esto es fácil de solucionar con las teclas `g` y `h`. Generalmente están de-sincronizados por segundos, recomiendo probar con saltos de 1000ms.
 
 Una vez lo sincronizas al principio del video recomiendo ir al final y ver si siguen sincronizados, si no  están sincronizados gg. Vas a tener que probar con otro subtitulo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
